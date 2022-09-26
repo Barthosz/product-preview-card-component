@@ -17,6 +17,7 @@
   --fw-regular: 500;
   --fw-bold: 700;
 
+  --fs-300: 0.75rem;
   --fs-400: 0.875rem;
   --fs-500: 1rem;
   --fs-700: 2rem;
@@ -150,11 +151,25 @@ select {
   padding: var(--size-300);
 }
 
-.product-name {
+.product-type {
   text-transform: uppercase;
-  color: var(--clr-primary-400);
+  color: var(--clr-neutral-300);
+  font-family: var(--ff-body);
+  font-weight: var(--fw-regular);
+  font-size: var(--fs-300);
+  letter-spacing: 5px;
+}
+
+.product-name {
+  color: var(--clr-neutral-400);
+  font-family: var(--ff-heading);
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-700);
+}
+
+.card p {
+  color: var(--clr-neutral-300);
   font-family: var(--ff-body);
   font-weight: var(--fw-regular);
   font-size: var(--fs-400);
-  letter-spacing: 5px;
 }
