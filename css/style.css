@@ -149,6 +149,15 @@ select {
   overflow: hidden;
 }
 
+@media (min-width: 1440px) {
+  .card {
+    max-width: 600px;
+    display: flex;
+    flex-direction: row;
+    overflow: visible;
+  }
+}
+
 .container {
   padding: var(--size-300);
 }
@@ -222,3 +231,5 @@ select {
 .btn img {
   padding-right: 0.729rem;
 }
+
+/* ------------ MEDIA QUERY ------------ */
