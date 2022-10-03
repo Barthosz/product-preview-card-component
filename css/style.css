@@ -149,13 +149,11 @@ select {
   overflow: hidden;
 }
 
-@media (min-width: 1440px) {
-  .card {
-    max-width: 600px;
-    display: flex;
-    flex-direction: row;
-    overflow: visible;
-  }
+.img-div {
+  background-image: url("/images/image-product-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 240px;
 }
 
 .container {
@@ -230,4 +228,20 @@ select {
 
 .btn img {
   padding-right: 0.729rem;
+}
+
+/* Media Query */
+@media (min-width: 1440px) {
+  .card {
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* overflow: visible; */
+  }
+  .img-div {
+    background-image: url("/images/image-product-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
 }
