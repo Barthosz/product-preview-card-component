@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub/product-preview-card-html-and-css-ta2pz0lCdB)
 - Live Site URL: [Add live site URL here](https://barthosz.github.io/product-preview-card-component/)
 
 ## My process
