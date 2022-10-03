@@ -231,7 +231,7 @@ select {
 }
 
 /* Media Query */
-@media (min-width: 1440px) {
+@media (min-width: 1240px) {
   .card {
     max-width: 600px;
     display: grid;
